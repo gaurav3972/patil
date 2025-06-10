@@ -1,6 +1,6 @@
 node {  
     stage('pull') {
-         git branch: 'main', url: 'git branch: 'main', url: 'https://github.com/iamtruptimane/ECS-blue-green-deployment'
+         git branch: 'main', url: 'git branch: 'main', url:'https://github.com/iamtruptimane/ECS-blue-green-deployment.git'
     }
     stage('Build') {
          echo 'build is succeed'
